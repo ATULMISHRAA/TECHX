@@ -1,0 +1,204 @@
+
+
+/* -------------------------------------------*/
+
+/* Database Service */
+
+.database-header {
+
+    position: relative;
+  
+    padding: 80px 0;
+  
+    overflow: hidden;
+  
+  }
+  
+  
+  
+  
+  .light-theme .database-header {
+  
+    background-color: #e6f4f8;
+  
+    /* background-image: url("../../../../public/assets/images/theme/database1.png") !important; */
+  
+    background-size: auto;
+  
+    background-repeat: no-repeat;
+  
+    background-position: right;
+  
+  }
+  .database-header {
+    /* background-image: url("../../../../public/assets/images/theme/database-banner.png") !important; */
+  
+    background-size: auto;
+  
+    background-repeat: no-repeat;
+  
+    background-position: right;
+  }
+  .database-header .title-1 {
+  
+    font-size: 55px;
+  
+    font-family: var(--primary-font);
+  
+    font-weight: 700;
+  
+    color: #ffffff;
+  
+    line-height: 1.2;
+  
+    max-width: 600px;
+  
+  }
+  
+  
+  
+  
+  .light-theme .database-header .title-1 {
+  
+    color: var(--dark);
+  
+  }
+
+
+.database1-bg {
+
+  /* background-image: url('/public/assets/images/theme/database2.png') !important; */
+
+  background-size: contain;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  min-height: 100%;
+
+  max-height: 100%;
+
+  display: block;
+
+  padding: 211px;
+
+}
+
+
+
+
+.database2-bg {
+
+  /* background-image: url('/public/assets/images/theme/database3.png'); */
+
+  background-size: contain;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  min-height: 100%;
+
+  max-height: 100%;
+
+  display: block;
+
+  
+
+}
+.databasegap {
+  margin: 0 auto 50px!important;
+}
+.databsegap-area {
+  padding: 10px 0 10px!important;
+} 
+
+/* .se-head {
+
+  text-align: center;
+
+  max-width: 680px;
+
+  margin: 0 auto 75px;
+
+} */
+
+ 
+
+.sec-title-1 {
+
+    font-size: 16px;
+  
+    font-family: var(--primary-font);
+  
+    font-weight: 400;
+  
+    color: #0cb340;
+  
+    /* color: var(--primary); */
+    font-family: Orbitron;
+    margin-bottom: 10px;
+  
+    text-transform: uppercase;
+  
+  }
+  
+  .sec-title-2 {
+  
+    /* font-family: var(--third-font); */
+    font-family: Orbitron;
+    font-size: 42px;
+  
+    font-weight: 500;
+  
+    line-height: 1.2;
+  
+    margin-bottom: 25px;
+  
+    color: #27AFE8 ;
+  
+  }
+  
+  .light-theme .sec-title-2{
+  
+    color: var(--dark) ;
+  
+  }
+  
+  .dark-theme .sec-para-1 {
+  
+    /* color:#ffffff; */
+  
+    font-size: 16px;
+  
+    /* font-family: var(--secondary-font); */
+    font-family: Inter;
+    line-height: 1.6;
+  
+    color: var(--text-gray);
+  
+    opacity: .8;
+  
+    max-width: 600px;
+  
+  }
+  .overlay-database-section {
+    opacity: 1!important;
+  }
+  .light-theme .overlay-database-section {
+    opacity: 1!important;
+    background: #fff;
+  }
+ .cyber-img-banner {
+  width: 40vw;
+ }
+ @media only screen and (max-width: 500px) { 
+  .database1-bg {
+    width: 10vw;
+  }
+  .databasegap {
+    margin: 50px auto 50px!important;
+  }
+ }
+ 

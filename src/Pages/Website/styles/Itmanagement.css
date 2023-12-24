@@ -1,0 +1,183 @@
+.cloud-header {
+
+    /* background-image: url('/public/assets/images/theme/cloud-header.gif') !important; */
+   
+    background-size: contain !important;
+   
+    background-position: right bottom !important;
+   
+    margin-right: -70px;
+   
+    background-repeat: no-repeat
+   
+   }
+   
+   
+   
+   
+   .cloud1-bg {
+   
+    /* background-image: url('/public/assets/images/theme/cloud1.gif') !important; */
+   
+    background-size: contain;
+   
+    background-repeat: no-repeat;
+   
+    background-position: right;
+   
+    /* height: 100%; */
+   
+    min-height: 100%;
+   
+    max-height: 100%;
+   
+    display: block;
+   
+    padding: 182px;
+   
+   }
+   
+   
+   
+   
+   .cloud2-bg {
+   
+    /* background-image: url('/public/assets/images/theme/cloud2.gif') !important; */
+   
+    background-size: contain !important;
+   
+    background-position: right bottom !important;
+   
+    margin-right: -70px;
+   
+    background-repeat: no-repeat
+   
+   }
+   
+   
+   
+   
+   .cloud-block .title-11 {
+   
+    font-size: 55px;
+   
+    font-family: var(--primary-font);
+   
+    font-weight: 600;
+   
+    color: #ffffff;
+   
+    line-height: 1.2;
+   
+    max-width: 600px;
+   
+   }
+   
+   
+   
+   
+   .cloud2-bg .title {
+   
+    font-size: 42px;
+   
+   }
+   .cloud-banner-section {
+    height: 90vh!important;
+   }
+   .head3{
+    text-align: center;
+    font-size: 25px;
+    font-family: inter;
+    color: #0cb340;
+    padding-bottom: 30px;
+   }
+   .se-head .se-title-1{
+    
+    font-size: 25px;
+    font-family: inter;
+    font-weight: 500;
+    /* color: var(--primary); */
+    margin-bottom: 10px;
+    text-transform: none;
+    color: #0cb340;
+   }
+   .se-head .se-title-2{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-weight: 700; */
+    /* color: #FFFFFF; */
+     line-height: 1.5; 
+    margin-bottom: 20px;
+    /* font-weight: 500; */
+    /* font-family: Orbitron; */
+    color:#27afe8;
+    padding-left: 15px;
+    padding-top: 26px;
+   }
+   .row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px 
+   }
+   .headh1{
+    font-size: 25px;
+    color: #0cb340;
+    margin-right: 120px;
+   }
+   .sec-title-2{
+    font-size: 25px;
+    color: #0cb340;
+    font-weight: 500;
+    font-family: inter;
+    padding-left: 30px;
+
+   }
+   .aboutus-text-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+   }
+   .h4{
+    font-size: 20px;
+    color: #27afe8;
+   }
+   .pa{
+    font-size: 16px;
+    color: var(--text-gray);
+   }
+   .head4d{
+    margin-top: -260px;
+    margin-bottom: 70px;
+    padding: 50px;
+   }
+   .head4d .head4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0cb340;
+
+   }
+   .head4d .pa4{
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    color: #27AFE8;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 35
+   }
+
+   @media only screen and (max-width: 1000px) { 
+    .cloud-banner-section {
+         height: auto!important;
+     }
+   }
+   @media only screen and (max-width: 1024px) {
+ .cloud-row-reverse {
+    flex-direction: column-reverse;
+ }
+   }

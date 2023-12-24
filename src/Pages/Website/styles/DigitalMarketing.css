@@ -1,0 +1,239 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.digital-marketing-section {
+  background-color: #132a54;
+  padding: 50px 0;
+}
+.digital-section_subtitle {
+  color: #0cb340;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Orbitron;
+}
+.cs-section_title {
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  font-family: Orbitron;
+}
+.dm-iconbox_icon {
+  display: block;
+  margin: auto;
+}
+.dm-iconbox_title {
+  font-size: 22px;
+  margin: 20px 0 20px;
+  text-align: center;
+  font-family: Orbitron;
+  color: #fff;
+}
+.dm-description {
+  color: var(--text-gray);
+  text-align: center;
+  font-family: Inter;
+}
+.dm-about-image {
+  border-radius: 20px;
+  width: 35vw;
+}
+.dm-about-title {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Orbitron;
+  line-height: 1.3em;
+}
+.dm-first-list-section {
+  padding-top: 30px;
+}
+.icon-dm-arrow {
+  color: #ff4a17;
+  font-size: 28px;
+}
+.dm-icon-text {
+  color: #ffffff;
+  margin-left: 10px;
+  font-family: Inter;
+  font-size: 18px;
+}
+.icon-dm-arrow {
+  position: relative;
+  top: 7px;
+}
+.dm-first-list-section ul li {
+  margin-top: 15px;
+}
+.dm-list-section {
+  display: flex;
+  justify-content: space-between;
+}
+.dm-section_title {
+  color: #fff;
+  font-size: 42px;
+  font-family: Orbitron;
+}
+.main {
+  width: 330px;
+  height: 330px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background: cyan;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-165px) rotate(-360deg);
+  }
+}
+.q .q-b {
+  padding: 10px 0 30px 0;
+  display: none;
+}
+.q .q-b p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-gray);
+  font-family: Inter;
+}
+.q .q-h .plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  width: 22px;
+  min-height: 22px;
+  height: 22px;
+  border: 2px solid var(--text-gray);
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.q .q-h .plus span {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 2px;
+  background-color: var(--text-gray);
+  transition: all 0.15s ease-in-out;
+}
+.q .q-h .plus span:nth-child(1) {
+  transform: rotate(90deg);
+}
+.q.open .q-h .plus span:nth-child(1) {
+  transform: rotate(0deg);
+}
+.q .q-h {
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.q:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.qna-all-section {
+    margin-top: 80px;
+    height: 80vh;
+}
+.q .q-h .text {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: Inter;
+}
+.light-theme .digital-marketing-section {
+    background: #fff;
+}
+.light-theme .cs-section_title {
+    color: var(--dark);
+}
+.light-theme .dm-iconbox_title {
+    color: var(--dark);
+}
+.light-theme .dm-about-title {
+    color: var(--dark);
+}
+.light-theme .dm-icon-text {
+    color: var(--dark);
+}
+.light-theme .dm-section_title {
+    color: var(--dark);
+}
+.light-theme .q:not(:last-child) {
+    border-bottom: 1px solid #4e4e52;
+}
+@media only screen and (max-width: 900px) {
+  .dm-about-title {
+    font-size: 35px;
+  }
+  .dm-icon-text {
+    font-size: 15px;
+  }
+  .cs-section_title {
+    font-size: 35px;
+  }
+  .dm-iconbox_title {
+    font-size: 25px;
+  }
+  .dm-section_title {
+    font-size: 35px;
+}
+}
+@media only screen and (max-width: 768px) { 
+  .dm-list-section {
+    justify-content: flex-start;
+}
+.second-list-section {
+  margin-left: 50px;
+}
+.dm-about-image {
+  width: 50vw;
+}
+.qna-all-section {
+  height: auto;
+}
+.main {
+  position: relative;
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width: 450px) { 
+  .dm-list-section {
+    flex-direction: column;
+  }
+  .second-list-section {
+    margin-left: 0px;
+}
+}

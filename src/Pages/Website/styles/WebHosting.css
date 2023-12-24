@@ -1,0 +1,66 @@
+
+
+  .webhost-header {
+    /* background-image: url('/public/assets/images/theme/webhosting.png') !important; */
+    background-size: contain !important;
+    background-position: right bottom !important;
+    margin-right: -70px;
+    background-repeat: no-repeat;
+    /* background-color: #0b2347 !important */
+   }
+
+.webhost1-bg {
+    /* background-image: url('/public/assets/images/theme/webhosting1.gif') !important;  */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    max-height: 100%;
+    display: block;
+    padding: 211px;
+  }
+  .banner-webhosting-img {
+    width: 100%;
+  }
+  .web-hosting-banner-box {
+    background-color: transparent!important;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .webhosting-all-section {
+      height: auto;
+  }
+  .webhost-elementor-all-section {
+      margin-top: 100px;
+  }
+  .responsive-text-webhost {
+    margin-top: 100px;
+  }
+  .elementor-box {
+    margin: 10px 0;
+  }
+  .icon-webhosting {
+    width: 100px;
+  }
+  }
+  
+  .webhost-btn {
+    margin-top: 50px;
+    display: block;
+  }
+  .icon {
+    font-size: 100px;
+  }
+  @media only screen and (max-width: 500px) {
+  .AI-text-title-one {
+    font-size: 35px!important;
+    line-height: 39px!important;
+  }
+  .sec-title-2 {
+    font-size: 35px!important;
+    line-height: 39px!important;
+  }
+  .webhost-elementor-all-section {
+    margin-top: 50px;
+}
+}
