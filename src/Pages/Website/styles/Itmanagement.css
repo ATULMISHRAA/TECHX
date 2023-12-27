@@ -84,10 +84,18 @@
    .cloud-banner-section {
     height: 90vh!important;
    }
+   .se-iv-home .box-title{
+    color: #27afe8;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+   }
    .head3{
     text-align: center;
     font-size: 25px;
     font-family: inter;
+    font-weight: 500;
     color: #0cb340;
     padding-bottom: 30px;
    }
@@ -126,12 +134,12 @@
     color: #0cb340;
     margin-right: 120px;
    }
-   .sec-title-2{
+   .heads5{
     font-size: 25px;
     color: #0cb340;
     font-weight: 500;
     font-family: inter;
-    padding-left: 30px;
+    padding-left: 50px;
 
    }
    .aboutus-text-section{
@@ -144,6 +152,8 @@
    .h4{
     font-size: 20px;
     color: #27afe8;
+    font-family: inter;
+    font-weight: 500;
    }
    .pa{
     font-size: 16px;

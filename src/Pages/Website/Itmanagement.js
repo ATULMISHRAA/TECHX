@@ -225,7 +225,7 @@ export const Itmanagement = (props) => {
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 <img
-                src={baseUrl + "/icons/It3.jpg"}
+                src={baseUrl + "/icons/It6.jpg"}
                 className=" img-fluid"
                 alt="Image" height={220} width={450}
               />
@@ -318,7 +318,7 @@ export const Itmanagement = (props) => {
         <div className="row " data-aos="fade-down">
           <div className="col-lg-6" style={{display:"flex",marginTop:-55}}>
           <div className="aboutus-text-section">
-          <h1 className="sec-title-2 mb-2 heads3"   data-aos="fade-right">Why Choose TECHX</h1>
+          <h1 className="heads5"data-aos="fade-right">Why Choose TECHX</h1>
           </div>
           </div>
           <div className="col-lg-6" data-aos="fade-left">
