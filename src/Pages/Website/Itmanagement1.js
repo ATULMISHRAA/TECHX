@@ -86,9 +86,9 @@ export const Itmanagement1 = (props) => {
                <div className="col-lg-6">
                     <div className="image-aboutus-section">
                        <img
-                         src={baseUrl + "/icons/It5.jpg"}
+                         src={baseUrl + "/icons/It7.png"}
                           className=" img-fluid"
-                          alt="Image"
+                          alt="Image" data-aos="fade-up"
                        />
                     </div>
                 </div>
@@ -225,7 +225,7 @@ export const Itmanagement1 = (props) => {
           <div className="col-lg-6">
             <div className="image-aboutus-section">
               <img
-                src={baseUrl + "/icons/It4.jpg"}
+                src={baseUrl + "/icons/It8.png"}
                 className=" img-fluid"
                 alt="Image"
               />
@@ -271,7 +271,7 @@ export const Itmanagement1 = (props) => {
             
             <div className="image-aboutus-section">
               <img
-                src={baseUrl + "/icons/It1.jpg"}
+                src={baseUrl + "/icons/It9.png"}
                 className=" img-fluid"
                 alt="Image"
                 data-aos="fade-right" />

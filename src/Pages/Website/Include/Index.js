@@ -19,6 +19,7 @@ export { default as ArtificialIntelligence } from "../ArtificialIntelligence";
 export { default as Itmanagement } from "../Itmanagement";
 export { default as Itmanagement1 } from "../Itmanagement1";
 export { default as ItinfraMgmt } from "../ItinfraMgmt";
+export { default as ItinfraMgmt1 } from "../ItinfraMgmt1";
 
 
 export { default as DatabaseService } from "../DatabaseService";

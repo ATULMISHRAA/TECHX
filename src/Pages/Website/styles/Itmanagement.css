@@ -82,10 +82,10 @@
    
    }
    .It-text-title-one {
-    font-size: 55px;
+    font-size: 59px;
     color:#0cb340;
     line-height: 60px;
-    font-family: inter;
+    font-family: orbitron;
     font-weight: 500;
 }
 
@@ -97,12 +97,12 @@
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    font-family: 'Inter';
+    font-family: orbitron;
    }
    .head3{
     text-align: center;
     font-size: 25px;
-    font-family: inter;
+    font-family: orbitron;
     font-weight: 500;
     color: #0cb340;
     padding-bottom: 30px;
@@ -110,7 +110,7 @@
    .se-head .se-title-1{
     
     font-size: 25px;
-    font-family: inter;
+    font-family: orbitron;
     font-weight: 500;
     /* color: var(--primary); */
     margin-bottom: 10px;
@@ -141,12 +141,13 @@
     font-size: 25px;
     color: #0cb340;
     margin-right: 120px;
+    font-family: orbitron;
    }
    .heads5{
     font-size: 25px;
     color: #0cb340;
     font-weight: 500;
-    font-family: inter;
+    font-family: orbitron;
     padding-left: 50px;
 
    }
@@ -160,7 +161,7 @@
    .h4{
     font-size: 20px;
     color: aqua;
-    font-family: inter;
+    font-family: orbitron;
     font-weight: 500;
    }
    .pa{
@@ -178,6 +179,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: 500;
+    font-family: orbitron;
     color: #0cb340;
 
    }

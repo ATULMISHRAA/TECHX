@@ -5,10 +5,10 @@
     height: 90vh;
     width: 100%;    
 }
-.masthead h3{
+.masthead h1{
     text-align: center;
-    font-size: 35px;
-    font-family: inter;
+    font-size: 59px;
+    font-family: orbitron;
     font-weight: 500;
     color:red;
 
@@ -17,12 +17,13 @@
 .bg-1 {
     color: var(--dark);
 }
-.se-head .se-title-1 {
-    font-size: 25px;
-    font-family: inter;
+.se-head .se-title1 {
+    font-size: 30px;
+    font-family: orbitron;
     font-weight: 500;
+    color: #0cb340;
 }
-.se-head .se-title-2 {
+.se-head .se-title2 {
     font-size: 16px;
     font-family: inter;
     font-weight: 500;
@@ -31,31 +32,31 @@
 }
 .head3 {
     text-align: center;
-    font-size: 25px;
-    font-family: inter;
+    font-size: 30px;
+    font-family: orbitron;
     font-weight: 500;
     color: #0cb340;
     padding-bottom: 30px;
 }
-.se-iv-home .box {
+.se-iv-home .Itf-box {
     background-color: #091d42;
     border-radius: 8px;
     border: 1px solid var(--border);
-    padding: 35px 30px 10px;
+    padding: 35px 5px 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     border-width: 1px 1px 1px 1px;
     transition: all 0.2s ease;
     border-color: #094170;
 }
-.se-iv-home .box-title{
+.se-iv-home .box_title{
     color: aqua;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    font-family: inter;
+    font-family: orbitron;
 }
 
-.se-iv-home .box-para{
+.se-iv-home .box_para{
     font-size: 16px;
     font-weight: 500;
     color: antiquewhite;
@@ -73,15 +74,15 @@
 .head4-It{
     color: #0cb340;
     text-align: center;
-    font-size: 25px;
-    font-family: inter;
+    font-size: 30px;
+    font-family: orbitron;
     font-weight: 500;
     padding-bottom: 30px;
 }
 .hd3 h3{
     color: aqua;
     font-size: 20px;
-    font-family: Inter;
+    font-family: orbitron;
     font-weight: 500;
     margin: 2px;
 }
@@ -94,9 +95,9 @@
 }
 .head4d .head4 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
-    font-family: inter;
+    font-family: orbitron;
     color: #0cb340;
 }
 .head4d .pa4 {

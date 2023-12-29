@@ -18,6 +18,7 @@ import ArtificialIntelligence from '../ArtificialIntelligence';
 import Itmanagement from '../Itmanagement';
 import Itmanagement1 from '../Itmanagement1';
 import ItinfraMgmt from "../ItinfraMgmt";
+import ItinfraMgmt1 from "../ItinfraMgmt1";
 import Website from '../Website';
 function WebsiteLayout(props) {
   const history = useHistory();
@@ -43,6 +44,7 @@ function WebsiteLayout(props) {
           <Route path="/Itmanagement" exact component={Comp.Itmanagement} pageLoader={hideShowLoader}/>
           <Route path="/Itmanagement1" exact component={Comp.Itmanagement1} pageLoader={hideShowLoader}/>
           <Route path="/ItinfraMgmt" exact component={Comp.ItinfraMgmt} pageLoader={hideShowLoader}/>
+          <Route path="/ItinfraMgmt1" exact component={Comp.ItinfraMgmt1} pageLoader={hideShowLoader}/>
           <Route path="/DatabaseService" exact component={Comp.DatabaseService} pageLoader={hideShowLoader}/>
           <Route path="/WebHosting" exact component={Comp.WebHosting} pageLoader={hideShowLoader}/>
           <Route path="/vps-hosting" exact component={Comp.VPSHosting} pageLoader={hideShowLoader}/>

@@ -85,11 +85,11 @@ export const ItinfraMgmt = (props) => {
     <>
       <div className="container-fluid pt-2 webhosting-all-section cloud-banner-section">
         <div className="masthead">
-        <div className="container mx-auto"style={{paddingTop:240,paddingLeft:220, width:1200, height:100}} >
-        <h3 >
+        <div className="container mx-auto"style={{paddingTop:160,paddingLeft:220, width:1200, height:100}} >
+        <h1 >
         Revolutionizing Mobile Device Management with TECHX Unmatched Solutions for Seamless
         Control and Security
-        </h3>
+        </h1>
        </div>
         
 
@@ -100,10 +100,10 @@ export const ItinfraMgmt = (props) => {
         <div className="container">
           {/* <!-- se-head --> */}
           <div className="se-head">
-            <h2 className="se-title-1" data-aos="fade-down">
+            <h2 className="se-title1" data-aos="fade-down">
                  Empower Your Business Mobility with TECHX's Cutting-Edge MDM Expertise
             </h2>
-            <p className="se-title-2" data-aos="fade-down">
+            <p className="se-title2" data-aos="fade-down">
             In the ever-evolving landscape of technology, TECHX stands as a pioneering engineering
             company, setting new benchmarks in Mobile Device Management (MDM). Our commitment
             goes beyond conventional boundaries, providing unparalleled solutions that redefine how
@@ -123,15 +123,15 @@ export const ItinfraMgmt = (props) => {
 
             <div className="col-xl-4 col-lg-4 col-md-6 mb-2">
               {/* <!-- box --> */}
-              <div className="box color-3">
+              <div className="Itf-box color-3">
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 
                 
                 {/* <!-- box-title --> */}
-                <h3 className="box-title">Innovative Engineering Excellence</h3>
+                <h3 className="box_title">Innovative Engineering Excellence</h3>
                 {/* <!-- box-para --> */}
-                <p className="box-para" data-aos="fade-down">
+                <p className="box_para" data-aos="fade-down">
                  At TECHX, we bring a unique blend of innovation and engineering prowess to MDM. Our
                  solutions are not just about managing devices; they're about enhancing your business
                   efficiency, productivity, and security through innovative engineering.
@@ -151,15 +151,15 @@ export const ItinfraMgmt = (props) => {
             {/* <!-- col --> */}
             <div className="col-xl-4 col-lg-4 col-md-6 mb-2">
               {/* <!-- box --> */}
-              <div className="box color-5">
+              <div className="Itf-box color-5">
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 
                 
                 {/* <!-- box-title --> */}
-                <h4 className="box-title">Tailored MDM Solutions</h4>
+                <h4 className="box_title">Tailored MDM Solutions</h4>
                 {/* <!-- box-para --> */}
-                <p className="box-para" data-aos="fade-down">
+                <p className="box_para" data-aos="fade-down">
                 One size doesn't fit all, especially in the dynamic world of MDM. TECHX crafts bespoke
                 solutions tailored to your business needs, ensuring that your mobile devices are not just
                 managed but optimized for peak performance.
@@ -178,15 +178,15 @@ export const ItinfraMgmt = (props) => {
             {/* <!-- col --> */}
             <div className="col-xl-4 col-lg-4 col-md-6 mb-2">
               {/* <!-- box --> */}
-              <div className="box color-2">
+              <div className="Itf-box color-2">
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 
                 
                 {/* <!-- box-title --> */}
-                <h4 className="box-title">Enhanced User Experience</h4>
+                <h4 className="box_title">Enhanced User Experience</h4>
                 {/* <!-- box-para --> */}
-                <p className="box-para" data-aos="fade-down">
+                <p className="box_para" data-aos="fade-down">
                 We understand that a seamless user experience is non-negotiable. TECHX focuses on not just
                 managing devices but ensuring that your team can work efficiently and intuitively, fostering
                 productivity and satisfaction.
@@ -203,15 +203,15 @@ export const ItinfraMgmt = (props) => {
               </div>
             </div><div className="col-xl-4 col-lg-4 col-md-6 mb-2" data-aos="fade-down">
               {/* <!-- box --> */}
-              <div className="box color-2">
+              <div className="Itf-box color-2">
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 
                 
                 {/* <!-- box-title --> */}
-                <h4 className="box-title"> Seamless Integration</h4>
+                <h4 className="box_title"> Seamless Integration</h4>
                 {/* <!-- box-para --> */}
-                <p className="box-para" data-aos="fade-down">
+                <p className="box_para" data-aos="fade-down">
                 Our MDM solutions seamlessly integrate into your existing IT infrastructure. Whether it's iOS,
                  Android, or other platforms, TECHX ensures a smooth and harmonious integration,
                  minimizing disruptions and maximizing control.
@@ -229,15 +229,15 @@ export const ItinfraMgmt = (props) => {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-6 mb-2" data-aos="fade-down">
               {/* <!-- box --> */}
-              <div className="box color-2">
+              <div className="Itf-box color-2">
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 
                 
                 {/* <!-- box-title --> */}
-                <h4 className="box-title">Unmatched Security Protocols</h4>
+                <h4 className="box_title">Unmatched Security Protocols</h4>
                 {/* <!-- box-para --> */}
-                <p className="box-para" data-aos="fade-down">
+                <p className="box_para" data-aos="fade-down">
                 In the digital age, security is paramount. TECHX's MDM solutions are fortified with state-of the-art security protocols. From device authentication to data encryption, we employ robust
                 measures to safeguard your business information.
                 </p>
@@ -254,15 +254,15 @@ export const ItinfraMgmt = (props) => {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-6 mb-2" data-aos="fade-down">
               {/* <!-- box --> */}
-              <div className="box color-2">
+              <div className="Itf-box color-2">
                 {/* <!-- link --> */}
                 <a href="#" className="box-link"></a>
                 
                 
                 {/* <!-- box-title --> */}
-                <h4 className="box-title">Remote Management Capabilities</h4>
+                <h4 className="box_title">Remote Management Capabilities</h4>
                 {/* <!-- box-para --> */}
-                <p className="box-para" data-aos="fade-down">
+                <p className="box_para" data-aos="fade-down">
                 In a world where remote work is becoming the norm, TECHX's MDM solutions empower you to
                 manage and secure devices from anywhere. Maintain control, enforce policies, and
                 troubleshoot issues all remotely.
