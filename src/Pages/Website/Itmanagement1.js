@@ -221,11 +221,7 @@ export const Itmanagement1 = (props) => {
           </div>
         </div>
       </div>
-
-      
-
-
-
+                   
    <div className="container-fluid webhosting-all-section cloud-banner-section">
         <div className="row cloud-row-reverse">
           <div className="col-lg-6">
