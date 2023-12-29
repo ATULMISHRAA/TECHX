@@ -81,6 +81,14 @@
     font-size: 42px;
    
    }
+   .It-text-title-one {
+    font-size: 55px;
+    color:#0cb340;
+    line-height: 60px;
+    font-family: inter;
+    font-weight: 500;
+}
+
    .cloud-banner-section {
     height: 90vh!important;
    }
@@ -151,13 +159,15 @@
    }
    .h4{
     font-size: 20px;
-    color: #27afe8;
+    color: aqua;
     font-family: inter;
     font-weight: 500;
    }
    .pa{
     font-size: 16px;
-    color: var(--text-gray);
+    color: antiquewhite;
+    font-family: inter;
+    font-weight: 500;
    }
    .head4d{
     margin-top: -260px;

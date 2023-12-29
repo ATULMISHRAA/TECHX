@@ -95,7 +95,7 @@ export const Itmanagement = (props) => {
           </div>
           <div className="col-lg-6">
             <div className="aboutus-text-section">
-              <h2 className="AI-text-title-one white-theme-text-AI color-about mt-1">
+              <h2 className="It-text-title-one white-theme-text-AI mt-1">
               Empowering Excellence<br/> Through Managed IT Solutions
               </h2>
               
