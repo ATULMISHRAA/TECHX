@@ -280,11 +280,6 @@ export const Itmanagement1 = (props) => {
           
           </div>
         
-      
-      
-        
-
-
       <div className="se-head mt-2" data-aos="fade-down">
                         <h3 className="se-title-1">FAQS</h3>
                         <h4 className="se-title-2">Got questions?<br />Well, we've got answers.</h4>
