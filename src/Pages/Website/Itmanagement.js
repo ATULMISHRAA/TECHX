@@ -337,19 +337,7 @@ export const Itmanagement = (props) => {
           </p> 
          </div>               
         </div>
-        
-        
-      
-
-      
-
-
-
-
-
-
-      
-      {/* <FAQ /> */}
+              
       <ThemeSetting />
 
       <Cookie />
