@@ -6,7 +6,10 @@ import ThemeSetting from "./Include/ThemeSetting";
 import "./styles/Itmanagement.css";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5b4d6c8013622af23c73162a8ace20556a901a06
 export const Itmanagement = (props) => {
     useEffect(()=>{
         Aos.init({duration:2000})
@@ -334,7 +337,11 @@ export const Itmanagement = (props) => {
           </p> 
          </div>               
         </div>
+<<<<<<< HEAD
              
+=======
+              
+>>>>>>> 5b4d6c8013622af23c73162a8ace20556a901a06
       <ThemeSetting />
 
       <Cookie />
