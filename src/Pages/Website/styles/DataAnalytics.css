@@ -1,0 +1,130 @@
+.masthead{
+    background-image: url("/public/assets/images/icons/It3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;    
+}
+.masthead h1{
+    text-align: center;
+    font-size: 59px;
+    font-family: orbitron;
+    font-weight: 500;
+    color:red;
+
+    
+}
+.bg-1 {
+    color: var(--dark);
+}
+.se-head .se-title1 {
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #0cb340;
+}
+.se-head .se-title2 {
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-top: 30px;
+}
+.head3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #0cb340;
+    padding-bottom: 30px;
+}
+.se-iv-home .Itf-box {
+    background-color: #091d42;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    padding: 35px 5px 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-width: 1px 1px 1px 1px;
+    transition: all 0.2s ease;
+    border-color: #094170;
+}
+.se-iv-home .box_title{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: orbitron;
+}
+
+.se-iv-home .box_para{
+    font-size: 16px;
+    font-weight: 500;
+    color: antiquewhite;
+    line-height: 1.5;
+    max-height: 70px;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 25px;
+    font-family: Inter;
+}
+.head4-It{
+    color: #0cb340;
+    text-align: center;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.hd3 h3{
+    color: aqua;
+    font-size: 20px;
+    font-family: orbitron;
+    font-weight: 500;
+    margin: 2px;
+}
+.hd3 p{
+    color: antiquewhite;
+    margin: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
+.head4d .head4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: orbitron;
+    color: #0cb340;
+}
+.head4d .pa4 {
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+    color: #27AFE8;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 35px;
+}
+.It-mgt2{
+    margin-top: 5px;
+}
+.It-mgt2 h2{
+    font: normal normal 500 30px/1.5 orbitron;
+    color: #3cb340;
+    padding: 20px;
+}
+.It-mgt2 p{
+    font: normal normal 500 16px/1.5 inter;
+    padding: 20px;
+    color: antiquewhite;
+}
+.It-mgt2 h1{
+    font: normal normal 500 50px/1.5 orbitron;
+    color: #3cb340;
+    padding: 20px;
+}

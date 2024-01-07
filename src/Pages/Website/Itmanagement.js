@@ -1,43 +1,12 @@
 /* eslint-disable no-restricted-globals */
-import React, { useState, useEffect } from "react";
-import { Link, withRouter } from "react-router-dom";
-import AbuseForm from "../../Components/AbuseForm";
-import BotnetForm from "../../Components/BotnetForm";
-import ChildAbuseForm from "../../Components/ChildAbuseForm";
-import FAQ from "../../Components/FAQ";
-import Header from "./Include/Header";
-import IntrusionForm from "../../Components/IntrusionForm";
-import MalwareForm from "../../Components/MalwareForm";
-import OtherForm from "../../Components/OtherForm";
-import PhishingForm from "../../Components/PhishingForm";
-import SharedHostingHeader from "../../Components/SharedHostingHeader";
-import SpamForm from "../../Components/SpamForm";
-import TrademarkForm from "../../Components/TrademarkForm";
-import ViolentForm from "../../Components/ViolentForm";
+import React, { useEffect } from "react";
+import { withRouter } from "react-router-dom";
 import Cookie from "./Include/Cookie";
 import ThemeSetting from "./Include/ThemeSetting";
-//import Card from '../../Components/UI/Card';
-import {
-  FaShieldAlt,
-  FaGlobe,
-  FaClipboardCheck,
-  FaGoogleDrive,
-  FaUbuntu,
-  FaRandom,
-} from "react-icons/fa";
-import {
-  BsFillBugFill,
-  BsFillChatLeftTextFill,
-  BsTelephoneFill,
-  BsXbox,
-} from "react-icons/bs";
 import "./styles/Itmanagement.css";
-
 import Aos from "aos";
- import 'aos/dist/aos.css';
-//import './styles/DatabaseService.css';
+import 'aos/dist/aos.css';
 
-// import useLoader from "../Services/useLoader";
 export const Itmanagement = (props) => {
     useEffect(()=>{
         Aos.init({duration:2000})
@@ -313,7 +282,6 @@ export const Itmanagement = (props) => {
           </div>
         </div>
       </div>
-
       <div className="container-fluid pt-2 webhosting-all-section cloud-banner-section">
         <div className="row " data-aos="fade-down">
           <div className="col-lg-6" style={{display:"flex",marginTop:-55}}>
@@ -322,9 +290,7 @@ export const Itmanagement = (props) => {
           </div>
           </div>
           <div className="col-lg-6" data-aos="fade-left">
-          <div className="row" style={{marginTop:20}}>
-          
-          
+          <div className="row" style={{marginTop:20}}> 
              <div className="col-lg-6">
                 <h4 className="h4">Proven Track Record</h4>
                 <p className="pa">
@@ -353,7 +319,6 @@ export const Itmanagement = (props) => {
                 business remains technologically relevant and competitive.
                 </p>
              </div>
-            
           </div>
         </div>
         </div>
@@ -369,19 +334,7 @@ export const Itmanagement = (props) => {
           </p> 
          </div>               
         </div>
-        
-        
-      
-
-      
-
-
-
-
-
-
-      
-      {/* <FAQ /> */}
+             
       <ThemeSetting />
 
       <Cookie />

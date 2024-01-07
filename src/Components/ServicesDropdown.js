@@ -38,10 +38,12 @@ const ServicesDropdown = (props) => {
         <li><Link to='/UiDesigning' className="dm-link" onClick={handleCloseLinks}>UI/UX Designing</Link></li>
         <li><Link to='/ArtificialIntelligence' className="dm-link" onClick={handleCloseLinks}>Artificial Intelligence</Link></li>
         <li><Link to='/Itmanagement' className="dm-link" onClick={handleCloseLinks}>IT Mgmt & Consultancy</Link></li>
-        <li><Link to='/Itmanagement1' className="dm-link" onClick={handleCloseLinks}>IT-Mgmt-Consultancy</Link></li>
+        <li><Link to='/Itmanagement1' className="dm-link" onClick={handleCloseLinks}>IT Mgmt & Consultancy1</Link></li>
         <li><Link to='/ItinfraMgmt' className="dm-link" onClick={handleCloseLinks}>IT Infra Mgmt-group3</Link></li>
         <li><Link to='/ItinfraMgmt1' className="dm-link" onClick={handleCloseLinks}>IT Infra Mgmt-group4</Link></li>
-        
+        <li><Link to='/Itmanagement2' className="dm-link" onClick={handleCloseLinks}>IT Mgmt & Consultancy2</Link></li>
+        <li><Link to='/Itmanagement3' className="dm-link" onClick={handleCloseLinks}>IT Mgmt & Consultancy3</Link></li>
+        <li><Link to='/DataAnalytics' className="dm-link" onClick={handleCloseLinks}>Data Analytics</Link></li>
 
 
       </ul>

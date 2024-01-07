@@ -1,44 +1,12 @@
 /* eslint-disable no-restricted-globals */
-import React, { useState, useEffect } from "react";
-import { Link, withRouter } from "react-router-dom";
-import AbuseForm from "../../Components/AbuseForm";
-import BotnetForm from "../../Components/BotnetForm";
-import ChildAbuseForm from "../../Components/ChildAbuseForm";
-import FAQ from "../../Components/FAQ";
-import Header from "./Include/Header";
-import IntrusionForm from "../../Components/IntrusionForm";
-import MalwareForm from "../../Components/MalwareForm";
-import OtherForm from "../../Components/OtherForm";
-import PhishingForm from "../../Components/PhishingForm";
-import SharedHostingHeader from "../../Components/SharedHostingHeader";
-import SpamForm from "../../Components/SpamForm";
-import TrademarkForm from "../../Components/TrademarkForm";
-import ViolentForm from "../../Components/ViolentForm";
+import React, { useEffect } from "react";
+import { withRouter } from "react-router-dom";
 import Cookie from "./Include/Cookie";
 import ThemeSetting from "./Include/ThemeSetting";
-//import Card from '../../Components/UI/Card';
-import {
-  FaShieldAlt,
-  FaGlobe,
-  FaClipboardCheck,
-  FaGoogleDrive,
-  FaUbuntu,
-  FaRandom,
-} from "react-icons/fa";
-import {
-  BsFillBugFill,
-  BsFillChatLeftTextFill,
-  BsTelephoneFill,
-  BsXbox,
-} from "react-icons/bs";
-//import "./styles/Itmanagement.css";
 import "./styles/ItinfraMgmt.css";
-
 import Aos from "aos";
  import 'aos/dist/aos.css';
-//import './styles/DatabaseService.css';
 
-// import useLoader from "../Services/useLoader";
 export const ItinfraMgmt = (props) => {
     useEffect(()=>{
         Aos.init({duration:2000})
@@ -329,19 +297,7 @@ export const ItinfraMgmt = (props) => {
           </p> 
          </div>               
         </div>
-        
-        
       
-
-      
-
-
-
-
-
-
-      
-      {/* <FAQ /> */}
       <ThemeSetting />
 
       <Cookie />

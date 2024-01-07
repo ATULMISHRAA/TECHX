@@ -1,0 +1,72 @@
+.Itf-style-home{
+    height: 600px;
+    width: 100%;
+}
+
+.Itf-style-home h1{
+    font-size: 59px;
+    font-family: orbitron;
+    font-weight: 500;
+    color:red;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Itf-style2 h2{
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #3cb340;
+    padding: 20px;
+}
+.Itf-style2 p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inter;
+    color: antiquewhite;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+}
+.It-mgt2{
+    margin-top: 20px;
+}
+.It-mgt2 h2{
+    font: normal normal 500 30px/1.5 orbitron;
+    color: #3cb340;
+    padding: 20px;
+}
+.It-mgt2 p{
+    font: normal normal 500 16px/1.5 inter;
+    padding: 20px;
+    color: antiquewhite;
+}
+.Itf-style3 h2{
+    color: #3cb340;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+}
+.Itf-style4 h3{
+    color: aqua;
+    font-family: orbitron;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.Itf-style4 p{
+    color: antiquewhite;
+    font-size:15px;
+    font-family: inter;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.Itf-style5{
+    gap: 40px;
+    margin-left: 60px;
+}
+.Itf-style6{
+    border: 1px solid wheat;
+}

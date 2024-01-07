@@ -18,8 +18,11 @@ export { default as Website } from "../Website";
 export { default as ArtificialIntelligence } from "../ArtificialIntelligence";
 export { default as Itmanagement } from "../Itmanagement";
 export { default as Itmanagement1 } from "../Itmanagement1";
+export { default as Itmanagement2 } from "../Itmanagement2";
+export { default as Itmanagement3 } from "../Itmanagement3";
 export { default as ItinfraMgmt } from "../ItinfraMgmt";
 export { default as ItinfraMgmt1 } from "../ItinfraMgmt1";
+export { default as DataAnalytics } from "../DataAnalytics";
 
 
 export { default as DatabaseService } from "../DatabaseService";

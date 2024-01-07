@@ -17,6 +17,8 @@ import WebHosting from '../WebHosting';
 import ArtificialIntelligence from '../ArtificialIntelligence';
 import Itmanagement from '../Itmanagement';
 import Itmanagement1 from '../Itmanagement1';
+import Itmanagement2 from '../Itmanagement2';
+import Itmanagement3 from '../Itmanagement3';
 import ItinfraMgmt from "../ItinfraMgmt";
 import ItinfraMgmt1 from "../ItinfraMgmt1";
 import Website from '../Website';
@@ -43,8 +45,11 @@ function WebsiteLayout(props) {
           <Route path="/ArtificialIntelligence" exact component={Comp.ArtificialIntelligence} pageLoader={hideShowLoader}/>
           <Route path="/Itmanagement" exact component={Comp.Itmanagement} pageLoader={hideShowLoader}/>
           <Route path="/Itmanagement1" exact component={Comp.Itmanagement1} pageLoader={hideShowLoader}/>
+          <Route path="/Itmanagement2" exact component={Comp.Itmanagement2} pageLoader={hideShowLoader}/>
+          <Route path="/Itmanagement3" exact component={Comp.Itmanagement3} pageLoader={hideShowLoader}/>
           <Route path="/ItinfraMgmt" exact component={Comp.ItinfraMgmt} pageLoader={hideShowLoader}/>
           <Route path="/ItinfraMgmt1" exact component={Comp.ItinfraMgmt1} pageLoader={hideShowLoader}/>
+          <Route path="/DataAnalytics" exact component={Comp.DataAnalytics} pageLoader={hideShowLoader}/>
           <Route path="/DatabaseService" exact component={Comp.DatabaseService} pageLoader={hideShowLoader}/>
           <Route path="/WebHosting" exact component={Comp.WebHosting} pageLoader={hideShowLoader}/>
           <Route path="/vps-hosting" exact component={Comp.VPSHosting} pageLoader={hideShowLoader}/>
