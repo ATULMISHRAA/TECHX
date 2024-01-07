@@ -11,10 +11,7 @@ import {
 import "./styles/Itmanagement1.css";
 import Aos from "aos";
 import"aos/dist/aos.css";
-<<<<<<< HEAD
 
-=======
->>>>>>> 5b4d6c8013622af23c73162a8ace20556a901a06
 export const Itmanagement1 = (props) => {
     useEffect(()=>{
         Aos.init({duration:2000});
