@@ -24,7 +24,7 @@ import"aos/dist/aos.css";
             </div>
         </div>
         <div className="container text-center Itf-style2">
-            <h2>"Unleashing Unprecedented Connectivity: Discover the Future of Communication with TECHX's VoIP Expertise</h2>
+            <h2>Unleashing Unprecedented Connectivity Discover the Future of Communication with TECHX's VoIP Expertise</h2>
             <p data-aos="fade-down">In the dynamic landscape of technological innovation, TECHX stands out as a trailblazing
               engineering company committed to redefining the way businesses communicate. Our focus
              on VoIP (Voice over Internet Protocol) Systems sets us apart, offering a transformative
