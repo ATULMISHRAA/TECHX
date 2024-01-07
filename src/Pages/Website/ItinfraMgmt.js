@@ -296,10 +296,6 @@ export const ItinfraMgmt = (props) => {
           </p> 
          </div>               
         </div>
-<<<<<<< HEAD
-=======
-        
->>>>>>> 5b4d6c8013622af23c73162a8ace20556a901a06
       
       <ThemeSetting />
 
